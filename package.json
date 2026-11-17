@@ -1,6 +1,6 @@
 {
   "name": "jshint",
-  "version": "2.13.2-lineaje-04-lineaje-04",
+  "version": "2.13.2-lineaje-04",
   "homepage": "http://jshint.com/",
   "description": "Static analysis tool for JavaScript",
   "author": {
@@ -74,5 +74,11 @@
     "data",
     "dist",
     "src"
-  ]
+  ],
+  "overrides": {
+    "brace-expansion": ">=1.1.22"
+  },
+  "resolutions": {
+    "brace-expansion": ">=1.1.22"
+  }
 }
